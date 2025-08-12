@@ -24,7 +24,7 @@ app.use(express.urlencoded({ extended: true, limit: '15mb' }));
 const allowedOrigins = [
   'http://localhost:5173', // Local development
   'http://localhost:3000', // Alternative local port
-  'https://your-frontend-app.netlify.app', // Replace with your Netlify domain
+  'https://formcraft-io.netlify.app', // Replace with your Netlify domain
   process.env.CORS_ORIGIN // Custom origin from environment
 ].filter(Boolean);
 
